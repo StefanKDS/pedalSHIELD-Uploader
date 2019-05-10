@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pedalSHIELD Uploader", "pedalSHIELD Uploader\pedalSHIELD Uploader.csproj", "{58B842BA-EBF7-4A1C-BA35-6BA4377BBDE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pSU Mobile", "pSU\pSU Mobile\pSU Mobile.csproj", "{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArduinoProjects", "ArduinoProjects", "{DC06990B-F0E0-4F28-BDBB-E6CF5C197A4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HEX Files", "HEX Files", "{2AC11B38-D1DA-4FC1-9B65-A04088487456}"
+	ProjectSection(SolutionItems) = preProject
+		Sketch\HEX\pedalshield_mega_bit_crusher.ino.mega.hex = Sketch\HEX\pedalshield_mega_bit_crusher.ino.mega.hex
+		Sketch\HEX\pedalshield_mega_clean.ino.ino.mega.hex = Sketch\HEX\pedalshield_mega_clean.ino.ino.mega.hex
+		Sketch\HEX\pedalshield_mega_metronome.ino.mega.hex = Sketch\HEX\pedalshield_mega_metronome.ino.mega.hex
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{F990B71A-9CC2-43B2-825E-A676905A091E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58B842BA-EBF7-4A1C-BA35-6BA4377BBDE4}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{58B842BA-EBF7-4A1C-BA35-6BA4377BBDE4}.All|Any CPU.Build.0 = Release|Any CPU
+		{58B842BA-EBF7-4A1C-BA35-6BA4377BBDE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B842BA-EBF7-4A1C-BA35-6BA4377BBDE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B842BA-EBF7-4A1C-BA35-6BA4377BBDE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B842BA-EBF7-4A1C-BA35-6BA4377BBDE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.All|Any CPU.Build.0 = Release|Any CPU
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.All|Any CPU.Deploy.0 = Release|Any CPU
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F990B71A-9CC2-43B2-825E-A676905A091E}.All|Any CPU.ActiveCfg = Release
+		{F990B71A-9CC2-43B2-825E-A676905A091E}.Debug|Any CPU.ActiveCfg = Debug
+		{F990B71A-9CC2-43B2-825E-A676905A091E}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AC11B38-D1DA-4FC1-9B65-A04088487456} = {DC06990B-F0E0-4F28-BDBB-E6CF5C197A4C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC27007D-F8F6-4AF8-8EBD-AAA8812EA162}
+	EndGlobalSection
+EndGlobal

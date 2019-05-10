@@ -1,0 +1,29 @@
+﻿<Window x:Class="pedalSHIELD_Uploader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pedalSHIELD_Uploader"
+        mc:Ignorable="d"
+        Title="pedalSHIELD updater" Height="450" Width="215.489" ResizeMode="NoResize"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+
+    <Grid Background="Transparent">
+
+        <Image Source="/Pics/bg.png" Stretch="Uniform"/>
+        <ComboBox x:Name="HexFiles" HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top" Width="195"/>
+        <ComboBox x:Name="SHILED" HorizontalAlignment="Left" Margin="10,154,0,0" VerticalAlignment="Top" Width="195">
+            <ComboBoxItem Content="MEGA"/>
+            <ComboBoxItem Content="UNO"/>
+        </ComboBox>
+
+        <Label x:Name="Info" Foreground="White" HorizontalAlignment="Left" Margin="22,45,0,0" VerticalAlignment="Top" Height="92" Width="172" FontFamily="{StaticResource LCD}"/>
+
+        <local:InvisibleButton x:Name="Transfer" HorizontalAlignment="Left" Margin="71,285,0,0" VerticalAlignment="Top" Height="70" Width="70" CustomClick="Button_Click"/>
+        <local:InvisibleButton x:Name="Close" HorizontalAlignment="Left" Margin="169,49,0,0" VerticalAlignment="Top" Height="22" Width="25" CustomClick="Button_Close_Click"/>
+        <ComboBox x:Name="Ports" HorizontalAlignment="Left" Margin="10,181,0,0" VerticalAlignment="Top" Width="195" />
+       
+    </Grid>
+</Window>
